@@ -9,7 +9,7 @@ setup(
     author='Andres Hernandez, Zhongqi Miao',
     author_email='v-herandres@microsoft.com, zhongqimiao@microsoft.com',  
     description='a PyTorch Collaborative Deep Learning Framework for Conservation.',
-    long_description=open('README.md').read(),
+    long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     install_requires=[
         'numpy',
